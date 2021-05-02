@@ -1,2 +1,5 @@
 address: '{cipher}13406092d84627242b01ac95597a1a85f91c02f0182e17174586b4e9a222b9f8'
 port: '{cipher}7a213153822516efa2d98faa5b5bf57a79eb0e17cc94a3a13a93dea669a4fe04'
+app:
+  jwtSecret: "SecretKeyForJWTs"
+  jwtExpirationInMs: 864_000_000
