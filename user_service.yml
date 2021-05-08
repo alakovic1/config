@@ -3,3 +3,9 @@ port: '{cipher}7a213153822516efa2d98faa5b5bf57a79eb0e17cc94a3a13a93dea669a4fe04'
 app:
   jwtSecret: "SecretKeyForJWTs"
   jwtExpirationInMs: 864_000_000
+spring:
+  mail:
+    host: '{cipher}8081fa46b413c63b81ca08c4df23b9b7b541434521695b305577101a38794c1c8a855486c5675b3d20742e7cce02dd74'
+    port: '{cipher}d7b4975cde162595d62fffe49ee0da9d56026f4fe6ec3b0d3cedb71431fccbc5'
+    username: '{cipher}3da6793e6c7ab36246e183fc8c5df03544805369bddef4ed4d04072d172d64f0'
+    password: '{cipher}837eef7ba54fc5c76edb7a8cb1c4b2693fecbb00733e861adc350e19e6a27820'
