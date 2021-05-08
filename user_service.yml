@@ -5,7 +5,13 @@ app:
   jwtExpirationInMs: 864_000_000
 spring:
   mail:
-    host: '{cipher}8081fa46b413c63b81ca08c4df23b9b7b541434521695b305577101a38794c1c8a855486c5675b3d20742e7cce02dd74'
-    port: '{cipher}d7b4975cde162595d62fffe49ee0da9d56026f4fe6ec3b0d3cedb71431fccbc5'
-    username: '{cipher}3da6793e6c7ab36246e183fc8c5df03544805369bddef4ed4d04072d172d64f0'
-    password: '{cipher}837eef7ba54fc5c76edb7a8cb1c4b2693fecbb00733e861adc350e19e6a27820'
+    host: smtp.gmail.com
+    port: '{cipher}ab5abed3becf50ce70c65cfbef0e0151ff3c0eb22f0113d889ea7300c21face7'
+    username: '{cipher}b1391f8ad2d698038c5d45c29a87418765ec1d296ce2de331b3e3766494a96d93fa93bdcc754ba3b9b9b7d1d435f4dcb'
+    password: '{cipher}4fdeb8549d3e33910365677db09b843a2f91b9aab5d92c787091e059624e3c4a'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
