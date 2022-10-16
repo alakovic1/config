@@ -1,0 +1,4 @@
+address: systemeventsservice
+port: '{cipher}7a213153822516efa2d98faa5b5bf57a79eb0e17cc94a3a13a93dea669a4fe04'
+app:
+  jwtSecret: '{cipher}0d5baf5be7fa7ec39526131ea1f15083c7997552e51c285503a38f5c6587fa3236539378b26418690f402ed2af3be68e'

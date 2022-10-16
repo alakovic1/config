@@ -1,0 +1,17 @@
+address: systemeventsservice
+port: '{cipher}7a213153822516efa2d98faa5b5bf57a79eb0e17cc94a3a13a93dea669a4fe04'
+app:
+  jwtSecret: '{cipher}0d5baf5be7fa7ec39526131ea1f15083c7997552e51c285503a38f5c6587fa3236539378b26418690f402ed2af3be68e'
+  jwtExpirationInMs: 864_000_000
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: '{cipher}ab5abed3becf50ce70c65cfbef0e0151ff3c0eb22f0113d889ea7300c21face7'
+    username: '{cipher}b1391f8ad2d698038c5d45c29a87418765ec1d296ce2de331b3e3766494a96d93fa93bdcc754ba3b9b9b7d1d435f4dcb'
+    password: '{cipher}4fdeb8549d3e33910365677db09b843a2f91b9aab5d92c787091e059624e3c4a'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
